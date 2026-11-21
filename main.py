@@ -8,19 +8,20 @@ so it passes the gate as written.
 from pathlib import Path
 
 TEXT = (
-    "You are small.\n"
-    "Your father carries you\n"
-    "on his shoulders,\n"
-    "his hand on your ankle.\n"
+    "You are asleep\n"
+    "in the high berth.\n"
+    "The train is going home.\n"
+    "Click. Click. The wheels.\n"
     "\n"
-    "The road winds home below.\n"
-    "The stars come out above.\n"
+    "Below, a river carved this valley\n"
+    "before the first train.\n"
+    "Still carving, slowly,\n"
+    "while the train rolls over.\n"
     "\n"
-    "Their light left\n"
-    "before the road was built,\n"
-    "before the first house stood,\n"
-    "and only now reaches you,\n"
-    "while you are still awake."
+    "The dog under the seat\n"
+    "dreams of nothing.\n"
+    "Neither do you.\n"
+    "Morning finds you home."
 )
 
 OUTPUT = Path("/output/entry.txt")
